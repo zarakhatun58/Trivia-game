@@ -6,7 +6,7 @@ import Quiz from './Components/Game/Quiz';
 function App() {
   return (
     <div className="App">
-      <div className='App-header'> Trivia Game</div>
+      <div className='App-header'> Trivia Game Developed By Jahanara</div>
       <Quiz/>
     </div>
   );
