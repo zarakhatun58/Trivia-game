@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 25px;
+  margin:"20px";
+  padding-top:"20px";
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
 
 .App-logo {
@@ -14,14 +22,21 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Poppins;
+  background: #83d4c1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e1d762, #6bd199);
+  background: linear-gradient(to right, #b6ffb9, #0b7d23);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 2px #0085a3);
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin: 20px;
 }
 
 .App-link {
